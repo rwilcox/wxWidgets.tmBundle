@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>// Magic macro: Defines wx RTTI information.
+IMPLEMENT_CLASS(${1:OurFrame}, ${2:wxFrame})
+
+enum ${1:OurFrame}ControlIDs
+{
+	// wxID_HIGHEST is where the predefined wxWidgets IDs stop.
+	// Your user control IDs should start here.
+	$3 = wxID_HIGHEST
+};
+
+BEGIN_EVENT_TABLE($1, $2)
+$4
+END_EVENT_TABLE()
+
+$1::$1(wxWindow* parent,
+                  wxWindowID id,
+                  const wxString &amp; title,
+                  const wxPoint &amp; pos,
+                  const wxSize &amp; size,
+                  long style)
+{
+	Create(parent, id, title, pos, size, style);
+}
+
+bool $1::Create(wxWindow* parent,
+                     wxWindowID id,
+                     const wxString &amp; title,
+                     const wxPoint &amp; pos,
+                     const wxSize &amp; size,
+                     long style,
+                     const wxString&amp; name)
+{
+	if ( !$2::Create(parent, id, title, pos, size, style, name) )
+		return false;
+
+    $0
+    
+	return true;
+}</string>
+	<key>name</key>
+	<string>wxFrame subclass definition</string>
+	<key>scope</key>
+	<string>source.c, source.c++</string>
+	<key>tabTrigger</key>
+	<string>sub_toplevelcpp</string>
+	<key>uuid</key>
+	<string>EFE673B9-755B-4C0D-AE13-010735DBF96E</string>
+</dict>
+</plist>

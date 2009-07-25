@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>mainMenu</key>
+	<dict>
+		<key>items</key>
+		<array>
+			<string>E53270DF-7817-42DB-87B5-18E4E939BC06</string>
+			<string>1B67049B-4694-482F-954E-1653EDF099B3</string>
+			<string>F59C5485-ED9A-43D3-B059-7EF51464F44D</string>
+			<string>CE9BB6A1-B7C0-44B4-BC0E-5B8F11A2EB72</string>
+		</array>
+		<key>submenus</key>
+		<dict>
+			<key>1B67049B-4694-482F-954E-1653EDF099B3</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>B1C04556-536A-450A-86B2-8029FA8DF9C4</string>
+					<string>EA272546-CB9D-41D5-A9FA-8A725A679A1D</string>
+					<string>6BF45694-FA83-4AA4-84A9-C9FAD3D7C89B</string>
+					<string>3902905C-26B9-4B60-9BD8-22578F1CBE6E</string>
+					<string>EFE673B9-755B-4C0D-AE13-010735DBF96E</string>
+				</array>
+				<key>name</key>
+				<string>Class Declarations</string>
+			</dict>
+			<key>CE9BB6A1-B7C0-44B4-BC0E-5B8F11A2EB72</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>E904334A-751C-4934-AD22-E62F54D6D37B</string>
+					<string>075D81AB-55F3-4FE5-BCA3-98A132AAFD9B</string>
+					<string>22DFF335-6E3A-45A8-96F4-391C57D94A92</string>
+				</array>
+				<key>name</key>
+				<string>Snippets</string>
+			</dict>
+			<key>E53270DF-7817-42DB-87B5-18E4E939BC06</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>78F71FDA-80A5-4F37-BC27-156DC580410D</string>
+					<string>979CA1E6-EC10-4B34-A273-3F0960D45942</string>
+				</array>
+				<key>name</key>
+				<string>Asserts</string>
+			</dict>
+			<key>F59C5485-ED9A-43D3-B059-7EF51464F44D</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>81F8372C-E112-4E6B-AC92-D18B365B6BD9</string>
+					<string>43D89E17-0A2B-4284-B2E2-8CC5E264AA2A</string>
+					<string>DED8C547-E96C-4B2C-8FE1-2F650D2F1638</string>
+					<string>37FB684B-26DF-4120-B5FF-310F39B31283</string>
+				</array>
+				<key>name</key>
+				<string>Logging Statements</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>name</key>
+	<string>wxWidgets</string>
+	<key>ordering</key>
+	<array>
+		<string>D15DE1B3-C68D-46D1-8338-2FC97C5213C0</string>
+		<string>EFE673B9-755B-4C0D-AE13-010735DBF96E</string>
+		<string>3902905C-26B9-4B60-9BD8-22578F1CBE6E</string>
+		<string>E904334A-751C-4934-AD22-E62F54D6D37B</string>
+		<string>6BF45694-FA83-4AA4-84A9-C9FAD3D7C89B</string>
+		<string>075D81AB-55F3-4FE5-BCA3-98A132AAFD9B</string>
+		<string>22DFF335-6E3A-45A8-96F4-391C57D94A92</string>
+		<string>78F71FDA-80A5-4F37-BC27-156DC580410D</string>
+		<string>979CA1E6-EC10-4B34-A273-3F0960D45942</string>
+		<string>81F8372C-E112-4E6B-AC92-D18B365B6BD9</string>
+		<string>43D89E17-0A2B-4284-B2E2-8CC5E264AA2A</string>
+		<string>DED8C547-E96C-4B2C-8FE1-2F650D2F1638</string>
+		<string>37FB684B-26DF-4120-B5FF-310F39B31283</string>
+		<string>B1C04556-536A-450A-86B2-8029FA8DF9C4</string>
+		<string>EA272546-CB9D-41D5-A9FA-8A725A679A1D</string>
+	</array>
+	<key>uuid</key>
+	<string>341850DC-387E-43E5-89FC-200FA987A90B</string>
+</dict>
+</plist>

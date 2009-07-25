@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>wxASSERT_MSG( ${1:condition that must be true, or error}, wxT("${2:$1 failed!}") )</string>
+	<key>name</key>
+	<string>wxASSERT_MSG</string>
+	<key>scope</key>
+	<string>source.c, source.c++</string>
+	<key>tabTrigger</key>
+	<string>assertm</string>
+	<key>uuid</key>
+	<string>78F71FDA-80A5-4F37-BC27-156DC580410D</string>
+</dict>
+</plist>

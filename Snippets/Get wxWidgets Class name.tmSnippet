@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-&gt;GetClassInfo()-&gt;GetClassName()</string>
+	<key>keyEquivalent</key>
+	<string></string>
+	<key>name</key>
+	<string>Get wxWidgets Class name</string>
+	<key>scope</key>
+	<string>source.c, source.c++</string>
+	<key>uuid</key>
+	<string>E904334A-751C-4934-AD22-E62F54D6D37B</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>IMPLEMENT_DYNAMIC_CLASS(${1:$TM_CURRENT_WORD}, $2)</string>
+	<key>keyEquivalent</key>
+	<string>~D</string>
+	<key>name</key>
+	<string>IMPLIMENT_DYNAMIC_CLASS</string>
+	<key>scope</key>
+	<string>source.c, source.c++</string>
+	<key>uuid</key>
+	<string>EA272546-CB9D-41D5-A9FA-8A725A679A1D</string>
+</dict>
+</plist>

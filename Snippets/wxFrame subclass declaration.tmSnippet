@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>class ${1:OurFrame} : public ${2:wxFrame}
+{
+	// Hook up with wxWidgets RTTI
+	DECLARE_CLASS($1);
+ 
+public:
+ 
+	$1()
+	:$3
+	{;}
+ 
+	$1(wxWindow* parent,
+	         wxWindowID id,
+	         const wxString &amp; title,
+	         const wxPoint &amp; pos = wxDefaultPosition,
+	         const wxSize &amp; size = wxDefaultSize,
+	         long style = wxDEFAULT_FRAME_STYLE);
+ 
+	~$1() {;}
+ 
+	bool Create(wxWindow* parent,
+	            wxWindowID id,
+	            const wxString &amp; title,
+	            const wxPoint &amp; pos = wxDefaultPosition,
+	            const wxSize &amp; size = wxDefaultSize,
+	            long style = wxDEFAULT_FRAME_STYLE,
+	            const wxString &amp; name = _T("$1"));
+ 
+private:
+ 
+	// We want to handle events, so we need an event table.
+	DECLARE_EVENT_TABLE();
+};</string>
+	<key>name</key>
+	<string>wxFrame subclass declaration</string>
+	<key>scope</key>
+	<string>source.c, source.c++</string>
+	<key>tabTrigger</key>
+	<string>sub_toplevelh</string>
+	<key>uuid</key>
+	<string>3902905C-26B9-4B60-9BD8-22578F1CBE6E</string>
+</dict>
+</plist>

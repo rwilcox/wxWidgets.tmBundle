@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>wxLogDebug( wxT("$1") );</string>
+	<key>name</key>
+	<string>wxLogDebug( wxT("") )</string>
+	<key>scope</key>
+	<string>source.c, source.c++</string>
+	<key>tabTrigger</key>
+	<string>logs</string>
+	<key>uuid</key>
+	<string>DED8C547-E96C-4B2C-8FE1-2F650D2F1638</string>
+</dict>
+</plist>

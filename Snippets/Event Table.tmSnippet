@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>BEGIN_EVENT_TABLE(${1:$TM_FILENAME}, ${2:superclass})
+	$3
+END_EVENT_TABLE()
+</string>
+	<key>name</key>
+	<string>Event Table</string>
+	<key>scope</key>
+	<string>source.c, source.c++</string>
+	<key>tabTrigger</key>
+	<string>eventt</string>
+	<key>uuid</key>
+	<string>6BF45694-FA83-4AA4-84A9-C9FAD3D7C89B</string>
+</dict>
+</plist>

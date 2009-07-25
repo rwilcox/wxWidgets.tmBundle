@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>wxSize(${1:width}, ${2:height})</string>
+	<key>name</key>
+	<string>wxSize</string>
+	<key>scope</key>
+	<string>source.c, source.c++</string>
+	<key>tabTrigger</key>
+	<string>wxSize</string>
+	<key>uuid</key>
+	<string>075D81AB-55F3-4FE5-BCA3-98A132AAFD9B</string>
+</dict>
+</plist>
